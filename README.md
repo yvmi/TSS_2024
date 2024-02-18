@@ -18,14 +18,14 @@
 ---
 <br>
 
-## :earth_americas: Run TSS Server
+## :earth_americas: Run TSS Server 
 1. Clone the repository...
 ```
 git clone https://github.com/SUITS-Techteam/TSS_2024.git
 ```
 2. Navigate into the root of the repository
 7. To build the TSS Server, run...\
-This will require the C compiler gcc.
+This will require the C compiler gcc. 
 ```
 ./build.bat
 ```
@@ -133,3 +133,9 @@ This is where you can monitor the state of the server, verify the display of you
 * public folder: contains a frontend for testing your device with TSS, along with all the json files that you will need from the server.
 
 This server is based on "Network Programming in C" and builds off of the HTTPs example.
+
+## Missing C compiler gcc? (Windows)
+1. Install [MSYS2](https://www.msys2.org/)
+2. Create [Windows Terminal Profile](https://www.msys2.org/docs/terminals/) for MSYS2. (For more guidance follow [tutorial](https://www.youtube.com/watch?v=KHWlz1GnFJU&t=634s)
+3. Open MSYS2 profile and follow **Run TSS Server** instructions again 
+    

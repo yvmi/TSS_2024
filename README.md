@@ -44,6 +44,20 @@ Creating Socket...
 Binding Socket...
 Listening...
 ```
+To run the server public (to connect to Vision Kit for example)
+```
+./server.exe --public
+```
+You should see the following lines appear...
+```
+Hello World
+
+Launching Server at IP: 0.0.0.0:14141
+Configuring Local Address...
+Creating Socket...
+Binding Socket...
+Listening...
+```
 To run the server on local host (which might be useful if using WSL) run the following command
 ```
 ./server.exe --local
@@ -64,6 +78,11 @@ Make sure you are on the same network as the server when connecting to it.
 ```
 http://192.168.51.109:14141
 ```
+If you're running ```--public``` you can open it by typing the following in your browser...
+```
+http://localhost:14141/
+```
+
 6. From this website, you can interact with the TSS.\
 This is where you can monitor the state of the server, verify the display of your system, and virtually interact with the EVA devices like you will be doing in May.
 
@@ -137,5 +156,7 @@ This server is based on "Network Programming in C" and builds off of the HTTPs e
 ## Missing C compiler gcc? (Windows)
 1. Install [MSYS2](https://www.msys2.org/)
 2. Create [Windows Terminal Profile](https://www.msys2.org/docs/terminals/) for MSYS2. (For more guidance follow [tutorial](https://www.youtube.com/watch?v=KHWlz1GnFJU&t=634s)
-3. Open MSYS2 profile and follow **Run TSS Server** instructions again 
+3. Open MSYS2 profile and follow **Run TSS Server** instructions again
+
+
     

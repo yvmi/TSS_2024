@@ -49,7 +49,11 @@ int main(int argc, char* argv[])
     char port[6] = "14141";
     if(argc > 1 && strcmp(argv[1], "--local") == 0){
         strcpy(hostname, "127.0.0.1");
-    } else {
+    }
+    if (argc > 1 && strcmp(argv[1], "--public") == 0) {
+        strcpy(hostname, "0.0.0.0");
+    }
+    else {
         get_ip_address(hostname);
     }
     printf("Launching Server at IP: %s:%s\n", hostname, port);

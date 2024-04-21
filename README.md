@@ -154,9 +154,10 @@ This is where you can monitor the state of the server, verify the display of you
 This server is based on "Network Programming in C" and builds off of the HTTPs example.
 
 ## Missing C compiler gcc? (Windows)
-1. Install [MSYS2](https://www.msys2.org/)
-2. Create [Windows Terminal Profile](https://www.msys2.org/docs/terminals/) for MSYS2. (For more guidance follow [tutorial](https://www.youtube.com/watch?v=KHWlz1GnFJU&t=634s)
-3. Open MSYS2 profile and follow **Run TSS Server** instructions again
+Check out:
+Missing-gcc-compiler.md
 
-
+## How to run Vision Kit? 
+Check out:
+Vision-kit-101.md
     

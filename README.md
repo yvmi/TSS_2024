@@ -155,7 +155,7 @@ This server is based on "Network Programming in C" and builds off of the HTTPs e
 
 ## Missing C compiler gcc? (Windows)
 Check out:
-Missing-gcc-compiler.md
+[Missing-gcc-compiler.md](https://github.com/yvmi/TSS_2024/blob/main/Missing-gcc-compiler.md)
 
 ## How to run Vision Kit? 
 Check out:

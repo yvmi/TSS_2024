@@ -28,8 +28,10 @@ npm start [TSS IP]
 
 ## Considerations
 **1. Type error after running Vision Kit**
-   This means that the GPS is failing to retrieve data. Usually the **Fix** light will be blinking fast as well
-How to fix it?
+
+This means that the GPS is failing to retrieve data. Usually the **Fix** light will be blinking fast as well
+
+**How to fix it?**
 - Let the Vision Kit sit outdoors or near a window until the light stops blinking or slows down. (this can take anywhere from 10 to 3 hours)
 - Then connect it back to the Monitor and keyboard
 - And try to start the Vision Kit again

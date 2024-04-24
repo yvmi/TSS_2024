@@ -159,5 +159,5 @@ Check out:
 
 ## How to run Vision Kit? 
 Check out:
-Vision-kit-101.md
+[Vision-kit-101.md](https://github.com/yvmi/TSS_2024/blob/main/Vision-kit-101.md)
     
